@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import about_img from '../../assets/about.png'
-import play_icon from '../../assets/red-arrow.png'
+import play_icon from '../../assets/play-icon.png'
 
 const About = () => {
   return (
@@ -11,14 +11,14 @@ const About = () => {
             <img src={play_icon} alt="" className="play-icon" />
         </div>
         <div className="about-right">
-            <h3>ABOUT COMPANY</h3>
-            <h2>OUR MISSION AND VISION AS A COMPANY</h2>
-            <p>  </p>
-            <p><h3>MISSION:</h3>To produce fresh, nutritious, and affordable tomato-based food products using carefully selected ingredients while empowering local farmers, ensuring customer satisfaction, 
-            and contributing to a healthier and more sustainable future.</p>
-            <p><h3>VISSION:</h3>To become the leading provider of high-quality tomato-based foods, 
-            recognized for delivering exceptional taste, promoting healthy living, 
-            and supporting sustainable agriculture in our communities.</p>
+            <h3>ABOUT UNIVERSITY</h3>
+            <h2>Nurturing Tomorrow's Today</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+            <p>Et debitis ipsa magni fugit doloribus sint alias, itaque eligendi magnam explicabo temporibus commodi, ratione, quasi autem iure. </p>
+            <p>Accusantium possimus aut magnam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis vitae voluptatem similique mollitia, 
+                aut dicta repellendus sint laudantium possimus impedit quam! Laboriosam
+                dolorem recusandae aut quam animi vero odit earum.</p>
         </div>
     </div>
   )
